@@ -24,6 +24,9 @@ public:
 	//------------------------------------------------
     float getWidth()  { return width * 2;  }
     float getHeight() { return height * 2; }
+
+    void setWidth(float w)  { width=w/2;  }
+    void setHeight(float h) { height=h/2; }
     
     void updateMesh();
     void draw();
